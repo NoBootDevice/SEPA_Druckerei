@@ -15,6 +15,9 @@
   <ItemGroup>
     <Folder Include="wwwroot\css\node_modules\" />
     <Folder Include="wwwroot\css\node_modules\bulmaswatch\" />
+    <Folder Include="TemplateBuilder\" />
+    <Folder Include="Views\Templates\" />
+    <Folder Include="TemplatePath\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\node_modules\bulma\CHANGELOG.md" />
@@ -124,5 +127,8 @@
     <None Include="wwwroot\css\node_modules\bulmaswatch\darkly\bulmaswatch.min.css.map" />
     <None Include="wwwroot\css\node_modules\bulmaswatch\darkly\bulmaswatch.scss" />
     <None Include="wwwroot\css\node_modules\bulmaswatch\darkly\thumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="TemplateBuilder\BuilderReceipt.cs" />
   </ItemGroup>
 </Project>
