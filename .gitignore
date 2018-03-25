@@ -41,4 +41,4 @@ Thumbs.db
 *.dotCover
 
 # sparse source files 
-/Users/dustin/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/css/node_modules/*
+SEPA_Druckerei/wwwroot/css/node_modules/*
