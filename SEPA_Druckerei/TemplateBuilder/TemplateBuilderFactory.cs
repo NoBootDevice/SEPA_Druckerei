@@ -9,6 +9,14 @@ namespace SEPA_Druckerei.TemplateBuilder
 
         //  BuildedStandardTemplate 
 
+
+        /*
+            Class that will "produce" the builded 
+            Template Objects......
+        */
+
+
+        // this will handle the Account Owner Information Section
         public static BuildedStandardTemplate BuildAccountOwnerTemplate()
         {
             BuildedStandardTemplate buildaccountownertemplate = new BuildedStandardTemplate();
