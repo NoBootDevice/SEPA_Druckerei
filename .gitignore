@@ -42,3 +42,6 @@ Thumbs.db
 
 # sparse source files 
 SEPA_Druckerei/wwwroot/css/node_modules/*
+! SEPA_Druckerei/wwwroot/css/node_modules/bulmaswatch/api
+! SEPA_Druckerei/wwwroot/css/node_modules/bulmaswatch/darkly
+
