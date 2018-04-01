@@ -5,6 +5,7 @@ const routes: Routes = [
     
     {path: 'AccountOwner', component: AccountOwnerComponent},
   
+    
  /*   {path: 'TransactionSample', component: TransactionSampleComponent}, 
     {path: 'TransactionUsage', component: TransactionUsageComponent},
     {path: 'NewTransaction', component: NewTransactionComponent}, 

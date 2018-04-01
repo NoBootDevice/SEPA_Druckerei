@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <TypeScriptCompilerBlocked>true</TypeScriptCompilerBlocked> 
-    <PostBuildEvent>ng build --aot</PostBuildEvent>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,6 +19,24 @@
     <Folder Include="TemplateBuilder\" />
     <Folder Include="Views\Templates\" />
     <Folder Include="TemplatePath\" />
+    <Folder Include="wwwroot\js\scripts\RoutingApp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="wwwroot\js\scripts\routing2\dist\inline.bundle.js" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\main.bundle.js" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\polyfills.bundle.js" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\styles.bundle.js" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\vendor.bundle.js" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\inline.bundle.js.map" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\main.bundle.js.map" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\polyfills.bundle.js.map" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\styles.bundle.js.map" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\vendor.bundle.js.map" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\favicon.ico" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\index.html" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\images\business_logo.png" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\css\site.min.css" />
+    <None Remove="wwwroot\js\scripts\routing2\dist\css\site.css" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\node_modules\bulma\CHANGELOG.md" />
@@ -133,5 +149,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="TemplateBuilder\BuilderReceipt.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\js\scripts\routing3\.angular-cli.json" />
   </ItemGroup>
 </Project>
