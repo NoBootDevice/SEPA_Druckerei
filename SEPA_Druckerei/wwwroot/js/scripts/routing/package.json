@@ -12,30 +12,22 @@
     "devBuild": "ng build",
     "prodBuild": "ng build --deploy-url=/js/scripts/RoutingApp",
    
-
-
     "copyCssAssets": "cp -r  $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/css' src",
     "copyShared": "cp -r  $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/Views/Shared' src",
-    "copyTemplates": "cp -r  $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/Views/Templates' src",
-    "copyHtmlAssets": "npm run copyShared && npm run copyTemplates",
+    "copyHtmlAssets": "npm run copyShared",
     "copyImageAssets": "cp -r  $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/images' src",
     "copyAllAssets": "npm run copyCssAssets && npm run copyHtmlAssets && npm run copyImageAssets",
-   
     "copySharedBack": "cp -r  src/Shared  $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/Views/'",
-    "copyTemplatesBack": "cp -r src/Templates $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/Views/Templates'",
-   
-    "copyIndexHtmlAssetsBack": "cp dist/index.html $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/Views/Shared/_Layout.cshtml'",
     
 
-    "copyJsMapsAssetsFromBuild": "cp /dist/*.js.map $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/js/scripts/RoutingApp'",
-    "copyJsFilesAssetsFromBuild": "cp /dist/*.js $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/js/scripts/RoutingApp'",
-   
-
+    "copyIndexHtmlAssetsBack": "mv dist/index.html $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/Views/Shared/_Layout.cshtml'",
+    
+    "copyJsMapsAssetsFromBuild": "mv dist/*.js.map $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/js/scripts/RoutingApp'",
+    "copyJsFilesAssetsFromBuild": "mv dist/*.js $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/js/scripts/RoutingApp'",
+  
     "copyJsAssetsFromBuild": "npm run copyJsMapsAssetsFromBuild && npm run copyJsFilesAssetsFromBuild",
 
-
-    "copyHtmlAssetsBack": "npm run copySharedBack &&  npm run copyTemplatesBack && npm run copyIndexHtmlAssetsBack",
- 
+    "copyHtmlAssetsBack": "npm run copySharedBack &&  npm run copyIndexHtmlAssetsBack", 
     "copyCssAssetsBack": "cp -r src/css  $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/'",
     "copyImageAssetsBack": "cp -r  src/images $HOME'/Projects/SEPA_Druckerei/SEPA_Druckerei/wwwroot/'",
     "copyAllAssetsBack": "npm run copyCssAssetsBack && npm run copyHtmlAssetsBack && npm run copyImageAssetsBack && npm run copyJsAssetsFromBuild",

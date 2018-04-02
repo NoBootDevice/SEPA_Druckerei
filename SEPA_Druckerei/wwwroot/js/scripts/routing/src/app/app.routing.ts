@@ -1,10 +1,10 @@
 import { Routes, RouterModule} from '@angular/router';
-import { AccountOwnerComponent } from './app.accountowner';
+import { TransactionformComponent } from './app.transactionformcomponent';
 
 const routes: Routes = [
     
-    {path: 'AccountOwner', component: AccountOwnerComponent},
-  
+    {path: 'TransactionForm', component: TransactionformComponent},
+    {path: 'AccountOwner', redirectTo: '/AccountOwnerView'},
     
  /*   {path: 'TransactionSample', component: TransactionSampleComponent}, 
     {path: 'TransactionUsage', component: TransactionUsageComponent},

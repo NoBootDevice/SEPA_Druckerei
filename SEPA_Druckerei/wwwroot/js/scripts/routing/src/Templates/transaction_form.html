@@ -1,987 +1,912 @@
 <style>
 
-td[_ngcontent-c1] {
-        border-collapse:collapse;
-        border: 2px solid rgb(247, 204, 137); 
-        background-color: rgb(255, 255, 255)
-    }
+        td[_ngcontent-c1] {
+                border-collapse:collapse;
+                border: 2px solid rgb(247, 204, 137);
+                background-color: rgb(255, 255, 255)
+            }
     
-    td.tdLimiter[_ngcontent-c1]{
-
-        background-color: rgb(247, 204, 137);
-    }
-
-    #test3[_ngcontent-c1]{
-
-        border-top: 5px solid rgb(221, 50, 57);
-        border-left: 5px solid rgb(221, 50, 57);
-        border-right: 5px solid rgb(221, 50, 57);
-        border-bottom: 3px solid rgb(247, 204, 137);
-    }
-
-
-    #placeholder1[_ngcontent-c1]{
-
-        border-bottom: 5px solid rgb(221, 50, 57);
-        border-right: 5px solid rgb(221, 50, 57);
-        border-left: 5px solid rgb(221, 50, 57);
-        border-top: 3px solid rgb(247, 204, 137);
-    }
- 
-
-    #placeholder2[_ngcontent-c1]{
-
-        border-top: 5px solid rgb(221, 50, 57);
-        border-left: 3px solid rgb(247, 204, 137);
-        border-right: 3px solid rgb(247, 204, 137);
-        border-bottom: 3px solid rgb(247, 204, 137);
-    }
-
-
-    .placeholderAmount[_ngcontent-c1]{
-
-        border-top: 5px solid rgb(221, 50, 57);
-        border-left: 5px solid rgb(221, 50, 57);
-        border-right: 5px solid rgb(221, 50, 57);
-        border-bottom: 5px solid rgb(221, 50, 57);
-    }
-
-    table.rowplaceholder td {
-
-        background-color: rgb(247, 204, 137);
-
-    }
-
-
-    tr[_ngcontent-c1]{
-
-table-layout: fixed;
-}
-    .rotate[_ngcontent-c1] {
-              transform: rotate(-90.0deg);  
-                 filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  
-             -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)"; 
-    }
+            td.tdLimiter[_ngcontent-c1]{
     
-.header-title{
-
-  color: rgb(0,0,0)
-}
-
-#placeholder_text{
-
-  visibility:hidden; 
-} 
-
-
-.vanisharea{
-
-  background-color: rgb(255, 255, 255)
-}
-@media 
-only screen and (min-width: 460px) and (max-width: 768px){
-
-     .vanisharea{
-
-         display: none; 
-     }
-}
-
-</style>
-
-<div _ngcontent-c1="" class="column is-12">
-    <section _ngcontent-c1="" class="section" id="card">
+                background-color: rgb(247, 204, 137);
+            }
     
-        <h1 _ngcontent-c1="" class="title">&nbsp;Aktuelle Überweisung&nbsp;</h1>
-        
-        <hr _ngcontent-c1="">
-
-        <div _ngcontent-c1="" class="column is-12">
-          
-          <div _ngcontent-c1="" class="card">
-                   
-            <header _ngcontent-c1="" class="card-header vanisharea">
-                
-              <div _ngcontent-c1="" class="columns">
-                     
-                <div _ngcontent-c1="" class="column is-3">
-                  
-                  <p _ngcontent-c1="" class="card-header-title header-title" >&nbsp;€uro-Überweisung&nbsp;</p>
-                  
-                </div>
-                  
-                <div _ngcontent-c1="" class="column is-3"> 
-                  
-                  <p _ngcontent-c1="" id="placeholder_text" class="card-header-title" >Für Überweisungen in Deutschland, in andere&nbsp;<br _ngcontent-c1=""></p>
-
-                  <br _ngcontent-c1=""> 
-                </div>
-                  
-                <div _ngcontent-c1="" class="column is-6">
-                  <p _ngcontent-c1="" class="card-header-title" style="color: rgb(221, 50, 57)">Für Überweisungen in Deutschland, in andere <br _ngcontent-c1=""> EU-/EWR-Staaten und in die Schweiz in Euro.</p>
-
-                  <p _ngcontent-c1="" style="color: rgb(221, 50, 57)">Bitte Meldepflicht gemäß Außenwirtschaftsordnung beachten!&nbsp;</p>
-
-                  <br _ngcontent-c1="">                
-                </div>
-
-              </div>               
-                           
-            </header>
-
-
-
-
+            #test3[_ngcontent-c1]{
+    
+                border-top: 5px solid rgb(221, 50, 57);
+                border-left: 5px solid rgb(221, 50, 57);
+                border-right: 5px solid rgb(221, 50, 57);
+                border-bottom: 3px solid rgb(247, 204, 137);
+            }
+    
+    
+            #placeholder1[_ngcontent-c1]{
+    
+                border-bottom: 5px solid rgb(221, 50, 57);
+                border-right: 5px solid rgb(221, 50, 57);
+                border-left: 5px solid rgb(221, 50, 57);
+                border-top: 3px solid rgb(247, 204, 137);
+            }
+    
+    
+            #placeholder2[_ngcontent-c1]{
+    
+                border-top: 5px solid rgb(221, 50, 57);
+                border-left: 3px solid rgb(247, 204, 137);
+                border-right: 3px solid rgb(247, 204, 137);
+                border-bottom: 3px solid rgb(247, 204, 137);
+            }
+    
+    
+            .placeholderAmount[_ngcontent-c1]{
+    
+                border-top: 5px solid rgb(221, 50, 57);
+                border-left: 5px solid rgb(221, 50, 57);
+                border-right: 5px solid rgb(221, 50, 57);
+                border-bottom: 5px solid rgb(221, 50, 57);
+            }
+    
+            table.rowplaceholder td {
+    
+                background-color: rgb(247, 204, 137);
+    
+            }
+    
+    
+            tr[_ngcontent-c1]{
+    
+        table-layout: fixed;
+        }
+            .rotate[_ngcontent-c1] {
+                      transform: rotate(-90.0deg);
+                         filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);
+                     -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083)";
+            }
+    
+        .header-title{
+    
+          color: rgb(0,0,0)
+        }
+    
+        #placeholder_text{
+    
+          visibility:hidden;
+        }
+    
+    
+        .vanisharea{
+    
+          background-color: rgb(255, 255, 255)
+        }
+        @media
+        only screen and (min-width: 460px) and (max-width: 768px){
+    
+             .vanisharea{
+    
+                 display: none;
+             }
+        }
+    
+    </style>
+    <div _ngcontent-c1="" class="column is-12">
+        <section _ngcontent-c1="" class="section" id="card">
+    
+            <h1 _ngcontent-c1="" class="title">&nbsp;Aktuelle Überweisung&nbsp;</h1>
+    
+            <hr _ngcontent-c1="">
             <div _ngcontent-c1="" class="column is-12">
-                            <div _ngcontent-c1="" class="columns">
-            <div _ngcontent-c1="" class="column is-1" style="background-color:rgb(255,255,255)">    
-                
-        
-    <br _ngcontent-c1="">  
-                 
-       
-                        </div>
-<div _ngcontent-c1="" class="column is-10" style="background-color: rgb(247, 204, 137)"> 
-        <section _ngcontent-c1="" cgglass="column is-12">
-           
-                <div _ngcontent-c1="" id="test3" style="z-index: -5 ;width: 100%; background-color: rgb(247, 204, 137); display: inline-block;">     
-                        <div _ngcontent-c1="">
-  <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-<div _ngcontent-c1="" style="float: left; width: 2%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div><div _ngcontent-c1="" style="float: right; width: 15%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div>
-<div _ngcontent-c1="" style="float: left; width: 83%">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;Angaben zum Zahlungsempfänger: Name, Vorname/Firma (max.27 Stellen, bei maschineller Beschriftung mx. 35)&nbsp;</p>
-</div></div><table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                                                                                                           <tr _ngcontent-c1="">
-                         <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                   <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                    <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-
-
-
-                        </div>
-        
-                           
-                   
-                   <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 12px; margin-left: 5px; display: inline-block;">&nbsp;IBAN&nbsp;</p>
-                   
-                   <table _ngcontent-c1="" style="width: 100%">
-                                           <tbody _ngcontent-c1="">
-                                             
-                                             <tr _ngcontent-c1="">
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td>
-                                               <td _ngcontent-c1="">&nbsp;</td> 
-                                             </tr>
-                                           </tbody>
-                   
-                   
-                                         </table>
-
-                   </div>
-
-                   
-<br _ngcontent-c1="">
-
-<div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        <div _ngcontent-c1="" style="float: left; width: 55%; border-left: 5px solid red; border-right: 5px solid red ">
-  
-<div _ngcontent-c1="">
-  <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-
-<div _ngcontent-c1="" style=" float: left; width: 100%">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;BIC des Kreditinstituts/Zahlungsdienstleisters (8 oder 11 Stellen)&nbsp;&nbsp;</p>
-</div></div>
-
-
-
-                        </div>
-</div>  
-                        
     
-<div _ngcontent-c1="" style="float: right; width: 45%; border-right: 5px solid red; border-top: 5px solid red">
-  
-<div _ngcontent-c1="">
-  <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-
-<div _ngcontent-c1="" style=" float: left; width: 100%">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 0px; margin-left: 5px;">&nbsp;</p>
-</div></div>
-
-
-
+                <div _ngcontent-c1="" class="card">
+    
+                    <header _ngcontent-c1="" class="card-header vanisharea">
+    
+                        <div _ngcontent-c1="" class="columns">
+    
+                            <div _ngcontent-c1="" class="column is-3">
+    
+                                <p _ngcontent-c1="" class="card-header-title header-title">&nbsp;€uro-Überweisung&nbsp;</p>
+    
+                            </div>
+    
+                            <div _ngcontent-c1="" class="column is-3">
+    
+                                <p _ngcontent-c1="" id="placeholder_text" class="card-header-title">Für Überweisungen in Deutschland, in andere&nbsp;<br _ngcontent-c1=""></p>
+                                <br _ngcontent-c1="">
+                            </div>
+    
+                            <div _ngcontent-c1="" class="column is-6">
+                                <p _ngcontent-c1="" class="card-header-title" style="color: rgb(221, 50, 57)">Für Überweisungen in Deutschland, in andere <br _ngcontent-c1=""> EU-/EWR-Staaten und in die Schweiz in Euro.</p>
+                                <p _ngcontent-c1="" style="color: rgb(221, 50, 57)">Bitte Meldepflicht gemäß Außenwirtschaftsordnung beachten!&nbsp;</p>
+                                <br _ngcontent-c1="">
+                            </div>
                         </div>
-</div><div _ngcontent-c1="" style="float: left; width: 50%">
-  
-<div _ngcontent-c1="">
-  <table _ngcontent-c1="" style="width: 100%; margin-top: -2px; border-left: 5px solid red; border-bottom: 5px solid red; border-right: 5px solid red">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                                                                                                           <tr _ngcontent-c1="">
-                         <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                   
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-
-
-
-                        </div>
-</div><div _ngcontent-c1="" style="float: left; width: 5%">
-  
-<div _ngcontent-c1="">
-  <table _ngcontent-c1="" class="rowplaceholder" style="width: 100%; margin-top: -2px; border-top: 5px solid red">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                                                                                                           <tr _ngcontent-c1="">
-                         
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                                                 
-                                                   
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-
-
-
-                        </div>
-</div><div _ngcontent-c1="" style="float: right; width: 40%">
-  
-<div _ngcontent-c1="">
-  <table _ngcontent-c1="" class="rowplaceholder" style="width: 100%; margin-top: -2px">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                                                                                                           <tr _ngcontent-c1="">
-                         <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                   
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-
-
-
-                        </div>
-</div></div>
-            
-                  
-
-            
-            
-
-
-
-
-<br _ngcontent-c1="">
-
-<div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        <div _ngcontent-c1="" style="float: left; width: 56%; ">
-                        
-                        
-                        <p _ngcontent-c1="" style="background-color: rgb(247, 204, 137); color: #ff0000; font-size: 11px; margin-left: 5px; display: inline-block;">&nbsp;&nbsp;</p>
-<table _ngcontent-c1="" class="rowplaceholder" style="width: 100%">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                                                                                                           <tr _ngcontent-c1="">
-                         <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                   
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-                        </div>  
-                        
-                        
-                        
-                        
-                                                    
-                        
- <div _ngcontent-c1="" style="float: right; width: 44%; border-left: 5px solid red; border-bottom: 5px solid red; border-right: 6px solid red">
-  
-<div _ngcontent-c1="">
-  <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-<div _ngcontent-c1="" style="border-top: 5px solid red;float: left; width: 2%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div><div _ngcontent-c1="" style="border-top: 5px solid red;float: right; width: 45%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div>
-<div _ngcontent-c1="" style="float: left; width: 53%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Betrag: Euro, Cent&nbsp;</p>
-</div></div><table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                                                                                                           <tr _ngcontent-c1="">
-                         <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                   
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-
-
-
-                        </div>
-</div>
-
-</div>
-
-
-
-
-<br _ngcontent-c1=""><div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                          
-                        
-                        
-                        
-                        
-                                                    
-                        
- <div _ngcontent-c1="" style="float: left; width: 100%">
-  
-<div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-<div _ngcontent-c1="" style="float: left; width: 2%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div><div _ngcontent-c1="" style="float: right; width: 13%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div>
-<div _ngcontent-c1="" style="float: left; width: 85%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;Kunden-Referenznummer - Verwendungszweck, ggf. Name und Anschrift des Zahlers - (nur für Zahlungsempfänger)&nbsp;&nbsp;</p>
-</div></div>
-<div _ngcontent-c1="">
-  
-<table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                          
-                                                                                 <tr _ngcontent-c1="">
-                          
-                                                                                 <td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                   
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-
-
-
-                        </div>
-</div>
-
-</div>
-
-<br _ngcontent-c1=""><div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                          
-                        
-                        
-                        
-                        
-                                                    
-                        
- <div _ngcontent-c1="" style="float: left; width: 100%">
-  
-<div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-<div _ngcontent-c1="" style="float: left; width: 2%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div><div _ngcontent-c1="" style="float: right; width: 8%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div>
-<div _ngcontent-c1="" style="float: left; width: 90%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp; Noch Verwendungszweck (insgesamt max. 2 Zeilen a 27 Stellen, bei maschineller Beschriftung max. 2 Zeilen a 35 Stellen)&nbsp;&nbsp;</p>
-</div></div>
-<div _ngcontent-c1="">
-  
-<table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
-                                                                               
-                                                                                                         <tbody _ngcontent-c1="">
-                                                                                                           
-                          
-                                                                                 <tr _ngcontent-c1="">
-                          
-                                                                                 <td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td><td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                                                 <td _ngcontent-c1="">&nbsp;</td>
-                                                   
-                                                                                
-                                                                     
-                                                                                                                                                                                                                                                                                    
-                         </tr>
-                                                                                                         </tbody>
-                                                                               
-                                                                               
-                                                                                                       </table>
-
-
-
-                        </div>
-</div>
-
-</div>
-
-
-
- <br _ngcontent-c1="">
+    
+                    </header>
+    
+    
+                    <div _ngcontent-c1="" class="column is-12">
+                        <div _ngcontent-c1="" class="columns">
+                            <div _ngcontent-c1="" class="column is-1" style="background-color:rgb(255,255,255)">
+    
+    
+                                <br _ngcontent-c1="">
+    
+    
+                            </div>
+                            <div _ngcontent-c1="" class="column is-10" style="background-color: rgb(247, 204, 137)">
+                                <section _ngcontent-c1="" cgglass="column is-12">
+    
+                                    <div _ngcontent-c1="" id="test3" style="z-index: -5 ;width: 100%; background-color: rgb(247, 204, 137); display: inline-block;">
+                                        <div _ngcontent-c1="">
+                                            <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+                                                <div _ngcontent-c1="" style="float: left; width: 2%; background-color: rgb(255, 255, 255);">
     
     
     
-                            
-            
-                               
-                       
-                       
-                       
-                       
-    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                            <div _ngcontent-c1="" style="float: left; width: 100%; border-left: 3px solid red; border-top: 3px solid red; border-right: 3px solid red">
-         
-                                
+                                                </div><div _ngcontent-c1="" style="float: right; width: 15%; background-color: rgb(255, 255, 255);">
     
     
-                             
-                            
-    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-
-<div _ngcontent-c1="" style="float: left; width: 80%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Angaben zum Kontoinhaber: Name, Vorname/Firma (max.27 Stellen, keine Straßen - oder Postfachangaben)&nbsp;</p>
-</div></div>
-
-                            <table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
-                                                                                   
-                                                                                                             <tbody _ngcontent-c1="">
-                                                                                                               
-                                                                                                               <tr _ngcontent-c1="">
-                             <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                       <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
+    
+                                                </div>
+                                                <div _ngcontent-c1="" style="float: left; width: 83%">
+    
+    
+                                                    <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;Angaben zum Zahlungsempfänger: Name, Vorname/Firma (max.27 Stellen, bei maschineller Beschriftung mx. 35)&nbsp;</p>
+                                                </div>
+                                            </div><table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
+    
+                                                <tbody _ngcontent-c1="">
+    
+                                                    <tr _ngcontent-c1="">
                                                         <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                                                    
-                                                                         
-                                                                                                                                                                                                                                                                                        
-                             </tr>
-                                                                                                             </tbody>
-                                                                                   
-                                                                                   
-                                                                                                           </table></div>  
-                            
-                             
-     
-    
-    
-    </div>
-
-<div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                            <div _ngcontent-c1="" style="float: left; width: 80%; border-left: 3px solid red; border-bottom: 3px solid red">
-         
-                                
-    
-    
-                             
-                            
-    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-<div _ngcontent-c1="" style="float: right; width: 45%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div>
-<div _ngcontent-c1="" style="margin-left: 5px; float: left; width: 8%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;IBAN&nbsp;</p>
-</div></div>
-<table _ngcontent-c1="" style="width: 100%">
-                                                                                   
-                              <tbody _ngcontent-c1="">
-                                 <tr _ngcontent-c1="">
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                     
-                                                     
-                                                     <td _ngcontent-c1="">&nbsp;</td>
-                                                   </tr>                                                                              
-                                                                                                               
-                                                                                                             </tbody>
-                                                                                   
-                                                                                   
-                                                                                                           </table>
-                            </div>  
-                            
-                             
-     
-    
-    
-    <div _ngcontent-c1="" style="float: right; width: 20%; border-left: 3px solid red; border-top: 3px solid red">
-         
-                                
-    
-    
-                             
-                            
-    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-<div _ngcontent-c1="" style="float: right; width: 45%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div>
-<div _ngcontent-c1="" style="margin-left: 5px; float: left; width: 8%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-
-</div></div><p _ngcontent-c1="" style="background-color: rgb(247, 204, 137); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;</p>
-
-<table _ngcontent-c1="" style="width: 100%">
-                                                                                   
-                              <tbody _ngcontent-c1="">
-                                 <tr _ngcontent-c1="">
-                                                     <td _ngcontent-c1="" class="tdLimiter">&nbsp;</td>
-                                            
-                                                     
-                                                   
-
-        
-        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
-        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
-        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
-        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
-        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
-        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
-        <td _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: black">&nbsp;16&nbsp;</td>
-        
-        
-</tr>                                                                              
-                                                                                                               
-                                                                                                             </tbody>
-                                                                                   
-                                                                                   
-                                                                                                           </table>
-                            </div></div>
-                       
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
     
     
     
+                                                    </tr>
+                                                </tbody>
+    
+    
+                                            </table>
+    
+                                        </div>
     
     
     
-                 
-              
-                            
+                                        <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 12px; margin-left: 5px; display: inline-block;">&nbsp;IBAN&nbsp;</p>
+    
+                                        <table _ngcontent-c1="" style="width: 100%">
+                                            <tbody _ngcontent-c1="">
+    
+                                                <tr _ngcontent-c1="">
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                    <td _ngcontent-c1="">&nbsp;</td>
+                                                </tr>
+                                            </tbody>
+    
+    
+                                        </table>
+                                    </div>
+    
+                                    <br _ngcontent-c1="">
+                                    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+                                        <div _ngcontent-c1="" style="float: left; width: 55%; border-left: 5px solid red; border-right: 5px solid red ">
+    
+                                            <div _ngcontent-c1="">
+                                                <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+    
+                                                    <div _ngcontent-c1="" style=" float: left; width: 100%">
+    
+    
+                                                        <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;BIC des Kreditinstituts/Zahlungsdienstleisters (8 oder 11 Stellen)&nbsp;&nbsp;</p>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+                                        </div>
+    
+    
+                                        <div _ngcontent-c1="" style="float: right; width: 45%; border-right: 5px solid red; border-top: 5px solid red">
+    
+                                            <div _ngcontent-c1="">
+                                                <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+    
+                                                    <div _ngcontent-c1="" style=" float: left; width: 100%">
+    
+    
+                                                        <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 0px; margin-left: 5px;">&nbsp;</p>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+                                        </div><div _ngcontent-c1="" style="float: left; width: 50%">
+    
+                                            <div _ngcontent-c1="">
+                                                <table _ngcontent-c1="" style="width: 100%; margin-top: -2px; border-left: 5px solid red; border-bottom: 5px solid red; border-right: 5px solid red">
+    
+                                                    <tbody _ngcontent-c1="">
+    
+                                                        <tr _ngcontent-c1="">
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
     
     
     
-                            
-                            
-                            
     
-                
-                
-
-
-
-
-
-
-             
-          </section>
-                        <br _ngcontent-c1=""><div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                        
-
-
-<div _ngcontent-c1="" style="float: left; width: 30%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Datum&nbsp;</p>
-<br _ngcontent-c1="">
-<br _ngcontent-c1="">
-</div>
-<div _ngcontent-c1="" style="float: left; width: 5%; background-color: rgb(247, 204, 137);">
-                        
-                        
-
-<br _ngcontent-c1="">
-<br _ngcontent-c1="">
-</div>
-<div _ngcontent-c1="" style="float: left; width: 57%; background-color: rgb(255, 255, 255);">
-                        
-                        
-
-<p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Unterschrift&nbsp;</p><br _ngcontent-c1="">
-<br _ngcontent-c1="">
-</div>
-</div>
-
-
-
-
-<div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">   
-                          
-                        
-                        
-                        
-                        
-                                                    
-                        
- 
-
-
-</div>
-
-</div>
-                        
-                        
-                        <div _ngcontent-c1="" class="column is-1 vanisharea" style="background-color:rgb(255,255,255)">  
-                 <br _ngcontent-c1="">
-                 
-                 
-<div _ngcontent-c1="" style="height: 15% "></div>
-
-
-
-<div _ngcontent-c1="" style="height: 5% ">
-<p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57); margin-top: 8px; font-size: 50px">&nbsp;A&nbsp;</p>
-</div>
-<div _ngcontent-c1="" style="height: 5% ">
-<p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57); margin-top: 8px; font-size: 50px">&nbsp;P&nbsp;</p>
-</div><div _ngcontent-c1="" style="height: 5% ">
-<p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57); margin-top: 8px; font-size: 50px">&nbsp;E&nbsp;</p>
-</div>
-
-       
-
-
-                 
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div _ngcontent-c1="" style="height: 5% ; background-color: rgb(255, 255 , 255 )">
-<p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57);margin-top: 8px; font-size: 50px">&nbsp;S&nbsp;</p>
-</div>
-
-
+                                                        </tr>
+                                                    </tbody>
+    
+    
+                                                </table>
+    
+                                            </div>
+                                        </div><div _ngcontent-c1="" style="float: left; width: 5%">
+    
+                                            <div _ngcontent-c1="">
+                                                <table _ngcontent-c1="" class="rowplaceholder" style="width: 100%; margin-top: -2px; border-top: 5px solid red">
+    
+                                                    <tbody _ngcontent-c1="">
+    
+                                                        <tr _ngcontent-c1="">
+    
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                                        </tr>
+                                                    </tbody>
+    
+    
+                                                </table>
+    
+                                            </div>
+                                        </div><div _ngcontent-c1="" style="float: right; width: 40%">
+    
+                                            <div _ngcontent-c1="">
+                                                <table _ngcontent-c1="" class="rowplaceholder" style="width: 100%; margin-top: -2px">
+    
+                                                    <tbody _ngcontent-c1="">
+    
+                                                        <tr _ngcontent-c1="">
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+    
+    
+                                                        </tr>
+                                                    </tbody>
+    
+    
+                                                </table>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+    
+    
+    
+    
+                                    <br _ngcontent-c1="">
+                                    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+                                        <div _ngcontent-c1="" style="float: left; width: 56%; ">
+    
+    
+                                            <p _ngcontent-c1="" style="background-color: rgb(247, 204, 137); color: #ff0000; font-size: 11px; margin-left: 5px; display: inline-block;">&nbsp;&nbsp;</p>
+                                            <table _ngcontent-c1="" class="rowplaceholder" style="width: 100%">
+    
+                                                <tbody _ngcontent-c1="">
+    
+                                                    <tr _ngcontent-c1="">
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+    
+    
+                                                    </tr>
+                                                </tbody>
+    
+    
+                                            </table>
+                                        </div>
+    
+    
+    
+    
+    
+    
+                                        <div _ngcontent-c1="" style="float: right; width: 44%; border-left: 5px solid red; border-bottom: 5px solid red; border-right: 6px solid red">
+    
+                                            <div _ngcontent-c1="">
+                                                <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+                                                    <div _ngcontent-c1="" style="border-top: 5px solid red;float: left; width: 2%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                    </div><div _ngcontent-c1="" style="border-top: 5px solid red;float: right; width: 45%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                    </div>
+                                                    <div _ngcontent-c1="" style="float: left; width: 53%; background-color: rgb(255, 255, 255);">
+    
+    
+                                                        <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Betrag: Euro, Cent&nbsp;</p>
+                                                    </div>
+                                                </div><table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
+    
+                                                    <tbody _ngcontent-c1="">
+    
+                                                        <tr _ngcontent-c1="">
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+    
+    
+                                                        </tr>
+                                                    </tbody>
+    
+    
+                                                </table>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+    
+                                    <br _ngcontent-c1=""><div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+    
+    
+    
+    
+    
+    
+                                        <div _ngcontent-c1="" style="float: left; width: 100%">
+    
+                                            <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+                                                <div _ngcontent-c1="" style="float: left; width: 2%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                </div><div _ngcontent-c1="" style="float: right; width: 13%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                </div>
+                                                <div _ngcontent-c1="" style="float: left; width: 85%; background-color: rgb(255, 255, 255);">
+    
+    
+                                                    <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;Kunden-Referenznummer - Verwendungszweck, ggf. Name und Anschrift des Zahlers - (nur für Zahlungsempfänger)&nbsp;&nbsp;</p>
+                                                </div>
+                                            </div>
+                                            <div _ngcontent-c1="">
+    
+                                                <table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
+    
+                                                    <tbody _ngcontent-c1="">
+    
+    
+                                                        <tr _ngcontent-c1="">
+    
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+    
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+    
+    
+                                                        </tr>
+                                                    </tbody>
+    
+    
+                                                </table>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br _ngcontent-c1=""><div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+    
+    
+    
+    
+    
+    
+                                        <div _ngcontent-c1="" style="float: left; width: 100%">
+    
+                                            <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+                                                <div _ngcontent-c1="" style="float: left; width: 2%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                </div><div _ngcontent-c1="" style="float: right; width: 8%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                </div>
+                                                <div _ngcontent-c1="" style="float: left; width: 90%; background-color: rgb(255, 255, 255);">
+    
+    
+                                                    <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp; Noch Verwendungszweck (insgesamt max. 2 Zeilen a 27 Stellen, bei maschineller Beschriftung max. 2 Zeilen a 35 Stellen)&nbsp;&nbsp;</p>
+                                                </div>
+                                            </div>
+                                            <div _ngcontent-c1="">
+    
+                                                <table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
+    
+                                                    <tbody _ngcontent-c1="">
+    
+    
+                                                        <tr _ngcontent-c1="">
+    
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+    
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+                                                            <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+    
+    
+                                                        </tr>
+                                                    </tbody>
+    
+    
+                                                </table>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+    
+                                    <br _ngcontent-c1="">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+                                        <div _ngcontent-c1="" style="float: left; width: 100%; border-left: 3px solid red; border-top: 3px solid red; border-right: 3px solid red">
+    
+    
+    
+    
+    
+    
+                                            <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+    
+                                                <div _ngcontent-c1="" style="float: left; width: 80%; background-color: rgb(255, 255, 255);">
+    
+    
+                                                    <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Angaben zum Kontoinhaber: Name, Vorname/Firma (max.27 Stellen, keine Straßen - oder Postfachangaben)&nbsp;</p>
+                                                </div>
+                                            </div>
+                                            <table _ngcontent-c1="" style="width: 100%; margin-top: -2px">
+    
+                                                <tbody _ngcontent-c1="">
+    
+                                                    <tr _ngcontent-c1="">
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+    
+                                                    </tr>
+                                                </tbody>
+    
+    
+                                            </table>
+                                        </div>
+    
+    
+    
+    
+    
+                                    </div>
+                                    <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+                                        <div _ngcontent-c1="" style="float: left; width: 80%; border-left: 3px solid red; border-bottom: 3px solid red">
+    
+    
+    
+    
+    
+    
+                                            <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+                                                <div _ngcontent-c1="" style="float: right; width: 45%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                </div>
+                                                <div _ngcontent-c1="" style="margin-left: 5px; float: left; width: 8%; background-color: rgb(255, 255, 255);">
+    
+    
+                                                    <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;IBAN&nbsp;</p>
+                                                </div>
+                                            </div>
+                                            <table _ngcontent-c1="" style="width: 100%">
+    
+                                                <tbody _ngcontent-c1="">
+                                                    <tr _ngcontent-c1="">
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+    
+    
+                                                        <td _ngcontent-c1="">&nbsp;</td>
+                                                    </tr>
+    
+                                                </tbody>
+    
+    
+                                            </table>
+                                        </div>
+    
+    
+    
+    
+    
+                                        <div _ngcontent-c1="" style="float: right; width: 20%; border-left: 3px solid red; border-top: 3px solid red">
+    
+    
+    
+    
+    
+    
+                                            <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+                                                <div _ngcontent-c1="" style="float: right; width: 45%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                </div>
+                                                <div _ngcontent-c1="" style="margin-left: 5px; float: left; width: 8%; background-color: rgb(255, 255, 255);">
+    
+    
+    
+                                                </div>
+                                            </div><p _ngcontent-c1="" style="background-color: rgb(247, 204, 137); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;&nbsp;</p>
+                                            <table _ngcontent-c1="" style="width: 100%">
+    
+                                                <tbody _ngcontent-c1="">
+                                                    <tr _ngcontent-c1="">
+                                                        <td _ngcontent-c1="" class="tdLimiter">&nbsp;</td>
+    
+    
+    
+    
+                                                        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
+                                                        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
+                                                        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
+                                                        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
+                                                        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
+                                                        <td _ngcontent-c1="" class="tdLimiter">&nbsp;&nbsp;</td>
+                                                        <td _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: black">&nbsp;16&nbsp;</td>
+    
+    
+                                                    </tr>
+    
+                                                </tbody>
+    
+    
+                                            </table>
+                                        </div>
+                                    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                </section>
+                                <br _ngcontent-c1=""><div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+    
+                                    <div _ngcontent-c1="" style="float: left; width: 30%; background-color: rgb(255, 255, 255);">
+    
+    
+                                        <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Datum&nbsp;</p>
+                                        <br _ngcontent-c1="">
+                                        <br _ngcontent-c1="">
+                                    </div>
+                                    <div _ngcontent-c1="" style="float: left; width: 5%; background-color: rgb(247, 204, 137);">
+    
+    
+                                        <br _ngcontent-c1="">
+                                        <br _ngcontent-c1="">
+                                    </div>
+                                    <div _ngcontent-c1="" style="float: left; width: 57%; background-color: rgb(255, 255, 255);">
+    
+    
+                                        <p _ngcontent-c1="" style="background-color: rgb(255, 255, 255); color: #ff0000; font-size: 11px; margin-left: 5px;">&nbsp;Unterschrift&nbsp;</p><br _ngcontent-c1="">
+                                        <br _ngcontent-c1="">
+                                    </div>
+                                </div>
+    
+    
+                                <div _ngcontent-c1="" style="overflow: auto; width: 100%; background-color: rgb(247, 204, 137); ">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                </div>
+                            </div>
+    
+    
+                            <div _ngcontent-c1="" class="column is-1 vanisharea" style="background-color:rgb(255,255,255)">
+                                <br _ngcontent-c1="">
+    
+    
+                                <div _ngcontent-c1="" style="height: 15% "></div>
+    
+                                <div _ngcontent-c1="" style="height: 5% ">
+                                    <p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57); margin-top: 8px; font-size: 50px">&nbsp;A&nbsp;</p>
+                                </div>
+                                <div _ngcontent-c1="" style="height: 5% ">
+                                    <p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57); margin-top: 8px; font-size: 50px">&nbsp;P&nbsp;</p>
+                                </div><div _ngcontent-c1="" style="height: 5% ">
+                                    <p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57); margin-top: 8px; font-size: 50px">&nbsp;E&nbsp;</p>
+                                </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+                                <div _ngcontent-c1="" style="height: 5% ; background-color: rgb(255, 255 , 255 )">
+                                    <p _ngcontent-c1="" class="rotate" style="color: rgb(221, 50, 57);margin-top: 8px; font-size: 50px">&nbsp;S&nbsp;</p>
+                                </div>
+    
+                            </div>
+                            <br _ngcontent-c1="">
                         </div>
-<br _ngcontent-c1=""></div>
-            
-            </div>
- 
-                    
-                     
-                     
-                     <footer _ngcontent-c1="" class="card-footer">
-                         <a class="button is-link card-footer-item">&nbsp;Überweisung drucken&nbsp;</a>   
-                          
-                          
-                      </footer>
-                    
+    
+                    </div>
+    
+    
+    
+    
+                    <footer _ngcontent-c1="" class="card-footer">
+                        <a class="button is-link card-footer-item">&nbsp;Überweisung drucken&nbsp;</a>
+    
+    
+                    </footer>
+    
                 </div>
-            
-            </div> 
-    </section> 
-</div>
+    
+            </div>
+        </section>
+    </div>

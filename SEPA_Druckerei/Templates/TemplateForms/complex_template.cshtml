@@ -1,0 +1,67 @@
+@model TemplateBuilder
+
+
+<div class="column is-12">
+        
+    <section class="section" id="card">
+        <h1 class="title"> @Model.Menupoint </h1>
+        <hr>
+
+
+        @foreach(var rowObject in Model.ColumnRows)
+        { 
+            <div class="columns">
+                    
+                foreach(var columnObject in rowObject.Columns)
+                {
+                    <div class="column columnObject.ColumnClass">
+                         
+                        <div class="card columnObject.ContainerClass">
+                                
+                            <header class="card-header">
+                                  
+                                <p class="card-header-title">columnObject.Headline</p>        
+                            </header> 
+
+                            <div class="card-content">
+                                  
+                                <div class="content"> 
+
+                                    <p> Context... Tabelle, UI, Whatever ... </p>
+                                    <p> Footer variabel, genauso wie die Inhalte dieser  </p>
+                                </div>                               
+                            </div> 
+
+                            if(!string.IsNullOrEmpty(columnObject.FooterArea))
+                            {
+                                <footer class="card-footer">
+
+                                    foreach(var toe in columnObject.FooterObjects)
+                                    {
+                                        @if(!string.IsNullOrEmpty(toe.isAnchorObject))
+                                        {
+                                            <a class="card-footer-item toe.ToeClass">toe.ToeName</a>  
+                                        }
+                                        else if(!string.IsNullOrEmpty(toe.isButtonObject))
+                                        {
+                                                
+                                            <button class="card-footer-item toe.ToeClass">toe.ToeName</button>  
+                                        }
+
+                                    }
+                                
+                                </footer>
+                             }
+
+                        </div>
+
+                    </div>
+                }
+            
+            </div>
+            
+        }
+                                 
+    </section> 
+
+</div>

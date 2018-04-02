@@ -16,27 +16,21 @@
   <ItemGroup>
     <Folder Include="wwwroot\css\node_modules\" />
     <Folder Include="wwwroot\css\node_modules\bulmaswatch\" />
-    <Folder Include="TemplateBuilder\" />
-    <Folder Include="Views\Templates\" />
-    <Folder Include="TemplatePath\" />
-    <Folder Include="wwwroot\js\scripts\RoutingApp\" />
+    <Folder Include="wwwroot\js\scripts\routing\src\Templates\" />
+    <Folder Include="Templates\" />
+    <Folder Include="Templates\TemplateForms\" />
+    <Folder Include="Templates\TemplateObjects\" />
+    <Folder Include="Templates\TemplateSkeleton\" />
+    <Folder Include="Templates\TemplateSkeleton\TemplateBuilder\" />
+    <Folder Include="Templates\TemplateSkeleton\FooterBuilder\" />
+    <Folder Include="Templates\TemplateSkeleton\ColumnBuilder\" />
+    <Folder Include="Templates\TemplateObjects\AccountOwner\" />
+    <Folder Include="Templates\TemplateSkeleton\ColumnBuilder\Column\" />
+    <Folder Include="Templates\TemplateSkeleton\ColumnBuilder\MainColumn\" />
+    <Folder Include="Templates\TemplateSkeleton\ColumnBuilder\SubColumn\" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="wwwroot\js\scripts\routing2\dist\inline.bundle.js" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\main.bundle.js" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\polyfills.bundle.js" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\styles.bundle.js" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\vendor.bundle.js" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\inline.bundle.js.map" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\main.bundle.js.map" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\polyfills.bundle.js.map" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\styles.bundle.js.map" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\vendor.bundle.js.map" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\favicon.ico" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\index.html" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\images\business_logo.png" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\css\site.min.css" />
-    <None Remove="wwwroot\js\scripts\routing2\dist\css\site.css" />
+    <None Remove="Templates\complex_template.html" />
   </ItemGroup>
   <ItemGroup>
     <None Include="wwwroot\css\node_modules\bulma\CHANGELOG.md" />
@@ -149,8 +143,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="TemplateBuilder\BuilderReceipt.cs" />
+    <Compile Remove="TemplatePath\ChildTemplatePath.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\js\scripts\routing3\.angular-cli.json" />
+    <Content Remove="wwwroot\js\SEPADruckerei\.angular-cli.json" />
+    <Content Remove="wwwroot\js\SEPADruckerei\.editorconfig" />
+    <Content Remove="wwwroot\js\SEPADruckerei\.gitignore" />
+    <Content Remove="wwwroot\js\SEPADruckerei\e2e\app.e2e-spec.ts" />
   </ItemGroup>
 </Project>

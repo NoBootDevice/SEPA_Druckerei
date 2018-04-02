@@ -1,11 +1,10 @@
-<!doctype html>
-<html>
+﻿<html>
   <head>
   <base href="/">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <title>@ViewData["Title"] - SEPA Druckerei</title>
+  <title>@ViewData["Title"]</title>
   <link href="/css/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="/css/node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="/css/node_modules/bulmaswatch/darkly/bulmaswatch.min.css" rel="stylesheet" type="text/css">    
@@ -140,6 +139,7 @@
           </div>
           <div class="column is-10">
               <rendertarget></rendertarget>
+              @RenderBody()
            </div>
 
   
